@@ -1,7 +1,23 @@
 aid: thecut
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thecut.png
 name: theCut
-description: theCut is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: theCut is a mobile application and web platform that connects clients with barbers and hair
+  professionals across all 50 U.S. states. Users find a barber near them, browse portfolio photos and
+  verified reviews, see upfront pricing, book and confirm appointments in real time, message their barber
+  in-app, and pay with cards, Apple Pay, Google Pay, or Cash App Pay. The service has facilitated over
+  100 million haircut bookings. theCut publishes no public developer API or documentation; this profile
+  is maintained in the API Evangelist network as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/thecut/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Barbershop
+- Booking
+- Scheduling
+- Appointments
+- Marketplace
+- Consumer
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,14 @@ maintainers:
 common:
 - type: Website
   url: https://thecut.co/
+- type: Support
+  url: https://help.thecut.co/
+- type: Blog
+  url: https://thecut.co/blog
+- type: DomainSecurity
+  url: security/thecut-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
